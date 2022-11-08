@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Patricia Pereira</title>
+    <meta
+      name="description"
+      content="About Patricia the Front-end developer based in Portugal"
+    />
+    <title>About Patricia Pereira</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,6 +23,30 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="../images/logo.png"
+            alt="Patricia logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="../images/small-logo.jpg"
+            alt="Patricia logo"
+            class="logo d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage"> Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Patricia"> About</a>
+          </li>
+          <li><a href="/work.html" title="Patricia's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Patricia"> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -38,6 +66,54 @@
           <img src="../images/portrait.png" alt="" class="mt-5 img-fluid" />
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding" title="Contact me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:patricia@gmail.com"
+            class="email-link"
+            title="Email Patricia"
+            >patricia@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://ww.instagram.com/patricia"
+            target="_blank"
+            title="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i></a
+          ><a
+            href="https://ww.github.com/patricia"
+            target="_blank"
+            title="Github"
+            ><i class="fa-brands fa-github"></i></a
+          ><a
+            href="https://ww.twitter.com/patricia"
+            target="_blank"
+            title="Twitter"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Amanda Guerrero and it is
+          <a href="https://github.com/AGuerrero123/PortfolioProject"
+            >open-source</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
